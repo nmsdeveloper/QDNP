@@ -116,6 +116,7 @@
 
 /*=============== SOCIALS ===============*/
 .socials__container {
+  padding-top: 2rem;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem 2rem;
   justify-items: center;
@@ -173,8 +174,8 @@
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  font-size: var(--smaller-font-size);
-  font-weight: var(--font-medium);
+  font-size: var(--tiny-font-size);
+  font-weight: var(--font-normal);
 }
 .news__img {
   position: relative;
