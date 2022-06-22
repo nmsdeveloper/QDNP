@@ -124,7 +124,7 @@
 .socials__link {
   display: flex;
   flex-direction: column;
-  row-gap: 0.5rem;
+  row-gap: 0.25rem;
   align-items: center;
   font-weight: var(--font-bold);
   cursor: pointer;
