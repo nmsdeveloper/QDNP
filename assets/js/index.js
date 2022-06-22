@@ -36,8 +36,20 @@ var swiperNews = new Swiper(".news__container", {
   },
 });
 
-/* musics */
+/* MUSICS */
 var swiperMusics = new Swiper(".musics__container", {
+  spaceBetween: 32,
+  centeredSlides: true,
+  slidesPerView: "auto",
+
+  navigation: {
+    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next",
+  },
+});
+
+/* VIDEOS */
+var swiperVideos = new Swiper(".videos__container", {
   spaceBetween: 32,
   centeredSlides: true,
   slidesPerView: "auto",
