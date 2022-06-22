@@ -8,13 +8,14 @@
   width: initial;
   height: initial;
   top: initial;
-  bottom: 0;
+  bottom: 1rem;
   background-color: var(--container-color);
   border: 0.25px solid var(--text-color-light);
   padding: 6px;
   border-radius: 0.5rem;
   font-size: 1.5rem;
   color: var(--primary-color);
+  cursor: pointer;
 }
 .swiper-button-prev {
   left: calc(50% - 3rem);
@@ -28,8 +29,7 @@
   justify-content: center;
   font-size: var(--h1-font-size);
   width: 100px;
-  min-height: 350px;
-  height: 100%;
+  height: 200px;
   padding: 0 3rem;
   color: var(--primary-color-lighten);
   background-color: var(--primary-color);
@@ -141,58 +141,73 @@
   color: var(--title-color);
 }
 
-/*=============== NEWS ===============*/
-.news__container {
+/*=============== NEWS @ ARTISTS ===============*/
+.news__container,
+.artists__container {
   padding: 1rem 0 5rem;
 }
-.news__card {
+.news__card,
+.artists__card {
   width: 290px;
+  height: 325px;
   background-color: var(--container-color);
   padding: 0.5rem 0.5rem 1.5rem;
   border-radius: 1rem;
   margin: 0 auto;
   transition: 0.3s ease-in-out;
 }
-.news__card:hover {
+.news__card:hover,
+.artists__card:hover {
   box-shadow: 0 12px 16px hsla(250, 66%, 45%, 0.1);
 }
 .news__card,
-.news__data {
+.news__data,
+.artists__card,
+.artists__data {
   display: -ms-grid;
   display: grid;
   row-gap: 0.5rem;
 }
 .news__calendar i,
-.news__type {
+.news__type,
+.artists__price {
   width: max-content;
   border-radius: 0.5rem;
   background-color: var(--box-shadow);
   padding: 0.5rem;
   color: var(--primary-color-lighten);
 }
-.news__type {
+.news__type,
+.artists__price {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
   font-size: var(--tiny-font-size);
   font-weight: var(--font-normal);
 }
-.news__img {
+.news__img,
+.artists__img {
   position: relative;
   max-height: 300px;
   height: 200px;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
-.news__img img {
+.news__img img,
+.artists__img img {
   height: 100%;
   border-radius: 1rem;
 }
-.news__data {
+.news__data,
+.artists__data {
   padding: 0 1rem 0 0.5rem;
 }
-.news__description {
-  font-size: var(--small-font-size);
+.news__description,
+.artists__name {
+  font-size: var(--tiny-font-size);
+}
+.artists__title {
+  font-size: var(--h3-font-size);
 }
 .news__calendar {
   display: flex;

@@ -24,7 +24,7 @@ const showScrollUp = (scrollupId) => {
 };
 window.addEventListener("scroll", () => showScrollUp("scroll-up"));
 
-/*=============== DARK@LIGHT THEME ===============*/
+/*=============== DARK @ LIGHT THEME ===============*/
 const themeButton = document.getElementById("nav-theme"),
   darkTheme = "dark-theme",
   iconTheme = "ri-sun-line",
