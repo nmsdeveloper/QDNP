@@ -132,10 +132,10 @@
   transition: 0.3s ease-in-out;
 }
 .socials__link i {
-  font-size: var(--biggest-font-size);
+  font-size: var(--h2-font-size);
 }
 .socials__link span {
-  font-size: var(--h3-font-size);
+  font-size: var(--h1-font-size);
 }
 .socials__link:hover {
   opacity: 0.5;

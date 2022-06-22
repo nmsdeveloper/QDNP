@@ -26,7 +26,6 @@ var typed = new Typed(".head__description", options);
 /* NEWS */
 var swiperNews = new Swiper(".news__container", {
   spaceBetween: 32,
-  grabCursor: true,
   centeredSlides: true,
   slidesPerView: "auto",
 
