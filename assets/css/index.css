@@ -141,13 +141,13 @@
   color: var(--title-color);
 }
 
-/*=============== NEWS @ ARTISTS ===============*/
+/*=============== NEWS @ MUSICS ===============*/
 .news__container,
-.artists__container {
+.musics__container {
   padding: 1rem 0 5rem;
 }
 .news__card,
-.artists__card {
+.musics__card {
   width: 290px;
   height: 325px;
   background-color: var(--container-color);
@@ -157,20 +157,20 @@
   transition: 0.3s ease-in-out;
 }
 .news__card:hover,
-.artists__card:hover {
+.musics__card:hover {
   box-shadow: 0 12px 16px hsla(250, 66%, 45%, 0.1);
 }
 .news__card,
 .news__data,
-.artists__card,
-.artists__data {
+.musics__card,
+.musics__data {
   display: -ms-grid;
   display: grid;
   row-gap: 0.5rem;
 }
 .news__calendar i,
 .news__type,
-.artists__price {
+.musics__price {
   width: max-content;
   border-radius: 0.5rem;
   background-color: var(--box-shadow);
@@ -178,7 +178,7 @@
   color: var(--primary-color-lighten);
 }
 .news__type,
-.artists__price {
+.musics__price {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
@@ -186,7 +186,7 @@
   font-weight: var(--font-normal);
 }
 .news__img,
-.artists__img {
+.musics__img {
   position: relative;
   max-height: 300px;
   height: 200px;
@@ -194,19 +194,20 @@
   margin-bottom: 1rem;
 }
 .news__img img,
-.artists__img img {
+.musics__img img {
   height: 100%;
   border-radius: 1rem;
 }
 .news__data,
-.artists__data {
+.musics__data {
   padding: 0 1rem 0 0.5rem;
 }
 .news__description,
-.artists__name {
+.musics__name {
   font-size: var(--tiny-font-size);
 }
-.artists__title {
+.musics__title {
+  text-transform: uppercase;
   font-size: var(--h3-font-size);
 }
 .news__calendar {

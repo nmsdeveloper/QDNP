@@ -8,7 +8,7 @@ const showAll = (id) => {
   });
 };
 showAll("news-all");
-showAll("artists-all");
+showAll("musics-all");
 
 /*=============== TYPED ===============*/
 var options = {
@@ -36,8 +36,8 @@ var swiperNews = new Swiper(".news__container", {
   },
 });
 
-/* ARTISTS */
-var swiperArtists = new Swiper(".artists__container", {
+/* musics */
+var swiperMusics = new Swiper(".musics__container", {
   spaceBetween: 32,
   centeredSlides: true,
   slidesPerView: "auto",
