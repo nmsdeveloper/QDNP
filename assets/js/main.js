@@ -123,7 +123,7 @@ export const createNavAndFooter = (headerId, footerId, active) => {
   </div>
 
   <span class="footer__copyright">
-    &copy; ${year.toString()} QDNP, Tout droits r&eacute;serv&eacute;s.
+    &copy; ${year.toString()} QDNP, Tous droits r&eacute;serv&eacute;s.
   </span>
 `;
 
