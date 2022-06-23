@@ -9,6 +9,7 @@ const showAll = (id) => {
 };
 showAll("news-all");
 showAll("musics-all");
+showAll("videos-all");
 
 /*=============== TYPED ===============*/
 var options = {
