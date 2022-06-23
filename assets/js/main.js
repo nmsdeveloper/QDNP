@@ -1,5 +1,7 @@
 /*=============== CREATE NAV AND FOOTER ===============*/
 export const createNavAndFooter = (headerId, footerId, active) => {
+  const year = new Date().getFullYear();
+
   const nav = `
   <nav class="nav container">
     <div>
@@ -121,7 +123,7 @@ export const createNavAndFooter = (headerId, footerId, active) => {
   </div>
 
   <span class="footer__copyright">
-    &copy; QDNP, Tout droits r&eacute;serv&eacute;s.
+    &copy; ${year.toString()} QDNP, Tout droits r&eacute;serv&eacute;s.
   </span>
 `;
 
