@@ -11,35 +11,35 @@ export const createNavAndFooter = (headerId, footerId, active) => {
     <div id="nav-menu" class="nav__menu">
       <ul class="nav__list">
         <li class="nav__item">
-          <a href="#" class="nav__link">
+          <a href="/" class="nav__link">
             <i class="ri-home-line"></i>
             <span>Accueil</span>
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="#" class="nav__link">
+          <a href="./news.html" class="nav__link">
             <i class="ri-newspaper-line"></i>
             <span>News</span>
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="#" class="nav__link">
+          <a href="./artistes.html" class="nav__link">
             <i class="ri-user-voice-line"></i>
             <span>Artistes</span>
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="#" class="nav__link">
+          <a href="./musiques.html" class="nav__link">
             <i class="ri-headphone-line"></i>
             <span>Musiques</span>
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="#" class="nav__link">
+          <a href="./videos.html" class="nav__link">
             <i class="ri-video-line"></i>
             <span>Videos</span>
           </a>
@@ -63,19 +63,19 @@ export const createNavAndFooter = (headerId, footerId, active) => {
 
         <ul class="footer__links">
           <li>
-            <a href="#" class="footer__link">News</a>
+            <a href="./news.html" class="footer__link">News</a>
           </li>
 
           <li>
-            <a href="#" class="footer__link">Artistes</a>
+            <a href="./artistes.html" class="footer__link">Artistes</a>
           </li>
 
           <li>
-            <a href="#" class="footer__link">Musiques</a>
+            <a href="./musiques.html" class="footer__link">Musiques</a>
           </li>
 
           <li>
-            <a href="#" class="footer__link">Videos</a>
+            <a href="./videos.html" class="footer__link">Videos</a>
           </li>
         </ul>
       </div>
