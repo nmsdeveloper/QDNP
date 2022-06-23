@@ -76,20 +76,19 @@ var swiperVideos = new Swiper(".videos__container", {
 
 /*=============== SCROLLREVEAL ===============*/
 const homeReveal = ScrollReveal({
-  origin: "top",
+  origin: "left",
   distance: "60px",
   duration: 2500,
   delay: 400,
   reset: true,
 });
 
-homeReveal.reveal(`.head__title`);
-homeReveal.reveal(`.head__img`, { delay: 500 });
-homeReveal.reveal(`.socials__link`, { origin: "left" });
-homeReveal.reveal(`.section__subtitle`, { origin: "left" });
+homeReveal.reveal(`.head__title`, { origin: "top" });
+homeReveal.reveal(`.head__img`, { delay: 500, origin: "top" });
+homeReveal.reveal(`.socials__link`);
+homeReveal.reveal(`.section__subtitle`);
 homeReveal.reveal(`.section__title`, {
   delay: 500,
-  origin: "left",
   reset: false,
 });
 homeReveal.reveal(`.right-align`, { origin: "right" });
