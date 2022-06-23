@@ -11,11 +11,16 @@
     <link rel="stylesheet" href="./assets/css/base.styles.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
     <title>QDNP - Accueil</title>
+
+    <script type="module">
+      import { createNavAndFooter } from "./assets/js/main.js";
+      createNavAndFooter("header", "footer", 0);
+    </script>
   </head>
   <body>
     <!--=============== NAVBAR ===============-->
     <header id="header" class="header">
-      <nav class="nav container">
+      <!-- <nav class="nav container">
         <div>
           <a href="/" class="nav__logo">QDNP</a>
         </div>
@@ -60,7 +65,7 @@
         </div>
 
         <i id="nav-theme" class="ri-moon-line nav__theme"></i>
-      </nav>
+      </nav> -->
     </header>
 
     <!--=============== MAIN ===============-->
@@ -207,7 +212,11 @@
                 </div>
               </article>
 
-              <a href="./news.html" id="news-all" class="show__all swiper-slide">
+              <a
+                href="./news.html"
+                id="news-all"
+                class="show__all swiper-slide"
+              >
                 <i class="ri-arrow-right-s-line"></i>
               </a>
             </div>
@@ -230,7 +239,11 @@
 
           <div class="swiper artists__container">
             <div class="swiper-wrapper">
-              <a href="./artistes.html" id="artists-all" class="show__all swiper-slide">
+              <a
+                href="./artistes.html"
+                id="artists-all"
+                class="show__all swiper-slide"
+              >
                 <i class="ri-arrow-right-s-line"></i>
               </a>
             </div>
@@ -375,7 +388,11 @@
                 </div>
               </article>
 
-              <a href="./musiques.html" id="musics-all" class="show__all swiper-slide">
+              <a
+                href="./musiques.html"
+                id="musics-all"
+                class="show__all swiper-slide"
+              >
                 <i class="ri-arrow-right-s-line"></i>
               </a>
             </div>
@@ -480,7 +497,11 @@
                 </div>
               </article>
 
-              <a href="./videos.html" id="videos-all" class="show__all swiper-slide">
+              <a
+                href="./videos.html"
+                id="videos-all"
+                class="show__all swiper-slide"
+              >
                 <i class="ri-arrow-right-s-line"></i>
               </a>
             </div>
@@ -501,7 +522,7 @@
 
     <!--=============== FOOTER ===============-->
     <footer id="footer" class="footer section">
-      <div class="footer__container container grid">
+      <!-- <div class="footer__container container grid">
         <div>
           <a href="#" class="footer__logo">QDNP</a>
           <p class="footer__description">Studio de production musicale</p>
@@ -574,7 +595,7 @@
 
       <span class="footer__copyright">
         &copy; QDNP, Tout droits r&eacute;serv&eacute;s.
-      </span>
+      </span> -->
     </footer>
 
     <!--=============== SCROLL UP ===============-->
