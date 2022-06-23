@@ -146,6 +146,9 @@
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+.musics__card {
+  cursor: default;
+}
 .videos__card {
   height: 300px;
 }
@@ -212,23 +215,34 @@
   font-size: var(--normal-font-size);
 }
 .news__calendar {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
   display: flex;
   align-items: center;
   column-gap: 1rem;
+}
+.news__calendar i {
+  color: var(--title-color);
 }
 .news__calendar span {
   font-size: var(--tiny-font-size);
 }
 .musics__button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
   width: max-content;
-  padding: 0.25rem 0.5rem;
-  color: var(--primary-color-alt);
+  font-size: var(--normal-font-size);
+  padding: 0.5rem 0.75rem;
+  color: var(--title-color);
   border: 1px solid var(--text-color);
-  border-radius: 0.25rem;
+  border-radius: 0.25rem 0 1rem 0;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 .musics__button:hover {
+  color: #ffffff;
   background-color: var(--text-color);
 }
 
@@ -259,7 +273,7 @@
   border-radius: 0.5rem;
   background-color: var(--box-shadow);
   padding: 0.5rem;
-  color: var(--primary-color-lighten);
+  color: var(--title-color);
   top: 0.5rem;
   right: 0.5rem;
   font-size: var(--tiny-font-size);
@@ -282,6 +296,9 @@
 .contact__description {
   font-size: var(--small-font-size);
   margin-bottom: 2.5rem;
+}
+.contact__description span {
+  color: var(--secondary-color);
 }
 .contact__card {
   display: -ms-grid;
