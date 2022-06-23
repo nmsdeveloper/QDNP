@@ -150,7 +150,7 @@
 .news__card,
 .musics__card,
 .videos__card {
-  width: 290px;
+  width: 280px;
   height: 325px;
   background-color: var(--container-color);
   padding: 0.5rem 0.5rem 1.5rem;
