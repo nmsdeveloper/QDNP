@@ -97,4 +97,6 @@ homeReveal.reveal(`.right-align-2`, {
   origin: "right",
   reset: false,
 });
-// homeReveal.reveal(`.footer__copyright`, { delay: 800 });
+homeReveal.reveal(`.contact__description`, { delay: 600, reset: false });
+homeReveal.reveal(`.contact__box`, { delay: 700, reset: false });
+homeReveal.reveal(`.subscriber__container`, { delay: 600, origin: "top" });
