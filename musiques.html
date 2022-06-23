@@ -11,115 +11,28 @@
     <link rel="stylesheet" href="./assets/css/base.styles.css" />
     <link rel="stylesheet" href="./assets/css/musics.css" />
     <title>QDNP - Musiques</title>
+
+    <script type="module">
+      import { createNavAndFooter } from "./assets/js/main.js";
+      createNavAndFooter("header", "footer", 3);
+    </script>
   </head>
   <body>
     <!--=============== NAVBAR ===============-->
     <header id="header" class="header"></header>
-    <!--=============== NAVBAR ===============-->
 
     <!--=============== MAIN ===============-->
     <main class="main">
-      <!--=============== MUSICS ===============-->
-      <section class="musics section">
-        <h1 class="musics__titl">Musiques</h1>
-
-        <div class="musics__data s-grid">
-          <a href="" class="musics__card">
-            <div class="musics__img">
-              <img
-                src="./assets/images/news/i300_300ml_Cover_Site.jpg"
-                alt=""
-              />
-            </div>
-
-            <div>
-              <h3 class="musics__title">Titre</h3>
-              <span class="musics__artist">Artiste</span>
-              <p class="musics__price">7000 Fcfa</p>
-            </div>
-          </a>
-
-          <a href="" class="musics__card">
-            <div class="musics__img">
-              <img src="./assets/images/news/LA-F-va.jpg" alt="" />
-            </div>
-
-            <div>
-              <h3 class="musics__title">Titre</h3>
-              <span class="musics__artist">Artiste</span>
-              <p class="musics__price">7000 Fcfa</p>
-            </div>
-          </a>
-
-          <a href="" class="musics__card">
-            <div class="musics__img">
-              <img src="./assets/images/news/La_Cite_Cover.jpg" alt="" />
-            </div>
-
-            <div>
-              <h3 class="musics__title">Titre</h3>
-              <span class="musics__artist">Artiste</span>
-              <p class="musics__price">7000 Fcfa</p>
-            </div>
-          </a>
-
-          <a href="" class="musics__card">
-            <div class="musics__img">
-              <img
-                src="./assets/images/news/i300_300ml_Cover_Site.jpg"
-                alt=""
-              />
-            </div>
-
-            <div>
-              <h3 class="musics__title">Titre</h3>
-              <span class="musics__artist">Artiste</span>
-              <p class="musics__price">7000 Fcfa</p>
-            </div>
-          </a>
-
-          <a href="" class="musics__card">
-            <div class="musics__img">
-              <img src="./assets/images/news/LA-F-va.jpg" alt="" />
-            </div>
-
-            <div>
-              <h3 class="musics__title">Titre</h3>
-              <span class="musics__artist">Artiste</span>
-              <p class="musics__price">7000 Fcfa</p>
-            </div>
-          </a>
-
-          <a href="" class="musics__card">
-            <div class="musics__img">
-              <img src="./assets/images/news/La_Cite_Cover.jpg" alt="" />
-            </div>
-
-            <div>
-              <h3 class="musics__title">Titre</h3>
-              <span class="musics__artist">Artiste</span>
-              <p class="musics__price">7000 Fcfa</p>
-            </div>
-          </a>
-        </div>
-      </section>
-      <!--=============== MUSICS ===============-->
+      <section style="height: 100vh"></section>
     </main>
-    <!--=============== MAIN ===============-->
-
-    <!--=============== MAIN@JS ===============-->
-    <script type="module" src="./assets/js/main.js"></script>
-
-    <!--=============== MUSICS@JS ===============-->
-    <script type="module" src="./assets/js/musics.js"></script>
-    <!--=============== NAVBAR ===============-->
-    <header id="header" class="header"></header>
-
-    <!--=============== MAIN ===============-->
-    <main class="main"></main>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+    <footer id="footer" class="footer section"></footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <div id="scroll-up" class="scrollup">
+      <i class="ri-arrow-up-s-line"></i>
+    </div>
 
     <!--=============== SCRIPT ===============-->
     <!--=============== MAIN@JS ===============-->
@@ -135,6 +48,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--=============== INDEX@JS ===============-->
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/musics.js"></script>
   </body>
 </html>

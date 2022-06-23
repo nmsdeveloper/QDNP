@@ -10,17 +10,29 @@
     />
     <link rel="stylesheet" href="./assets/css/base.styles.css" />
     <link rel="stylesheet" href="./assets/css/news.css" />
-    <title>QDNP - Actualit&eacute;s</title>
+    <title>QDNP - Videos</title>
+
+    <script type="module">
+      import { createNavAndFooter } from "./assets/js/main.js";
+      createNavAndFooter("header", "footer", 1);
+    </script>
   </head>
   <body>
     <!--=============== NAVBAR ===============-->
     <header id="header" class="header"></header>
 
     <!--=============== MAIN ===============-->
-    <main class="main"></main>
+    <main class="main">
+      <section style="height: 100vh"></section>
+    </main>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+    <footer id="footer" class="footer section"></footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <div id="scroll-up" class="scrollup">
+      <i class="ri-arrow-up-s-line"></i>
+    </div>
 
     <!--=============== SCRIPT ===============-->
     <!--=============== MAIN@JS ===============-->
@@ -36,6 +48,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--=============== INDEX@JS ===============-->
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/news.js"></script>
   </body>
 </html>
