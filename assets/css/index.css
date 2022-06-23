@@ -86,12 +86,6 @@
   color: var(--text-color-light);
   margin-bottom: 2rem;
 }
-.head__images {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .head__img {
   width: 95%;
   height: 350px;

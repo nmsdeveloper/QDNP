@@ -183,7 +183,8 @@ button {
   font-size: var(--small-font-size);
   color: var(--secondary-color);
 }
-.right-align {
+.right-align,
+.right-align-2 {
   text-align: right;
 }
 .main {

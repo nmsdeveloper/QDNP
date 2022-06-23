@@ -188,4 +188,18 @@ export const createNavAndFooter = (headerId, footerId, active) => {
     localStorage.setItem("selected-theme", getCurrentTheme());
     localStorage.setItem("selected-icon", getCurrentIcon());
   });
+
+  /*=============== SCROLLREVEAL ===============*/
+  const footerReveal = ScrollReveal({
+    origin: "left",
+    distance: "60px",
+    duration: 2500,
+    delay: 400,
+  });
+
+  footerReveal.reveal(`.footer__logo, .footer__description`);
+  footerReveal.reveal(`.footer__title`, { delay: 500 });
+  footerReveal.reveal(`.footer__links, .footer__social`, { delay: 600 });
+  footerReveal.reveal(`.footer__link, .footer__social-link`, { delay: 700 });
+  footerReveal.reveal(`.footer__copyright`, { delay: 800 });
 };

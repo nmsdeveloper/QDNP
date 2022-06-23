@@ -73,3 +73,23 @@ var swiperVideos = new Swiper(".videos__container", {
     nextEl: ".swiper-button-next",
   },
 });
+
+/*=============== SCROLLREVEAL ===============*/
+const homeReveal = ScrollReveal({
+  origin: "top",
+  distance: "100px",
+  duration: 2500,
+  delay: 400,
+});
+
+homeReveal.reveal(`.head__title`, { reset: true });
+homeReveal.reveal(`.head__img`, { delay: 500, reset: true });
+homeReveal.reveal(`.socials__link`, { origin: "left", reset: true });
+homeReveal.reveal(`.section__subtitle`, { origin: "left" });
+homeReveal.reveal(`.section__title`, { delay: 500, origin: "left" });
+homeReveal.reveal(`.right-align`, { origin: "right" });
+homeReveal.reveal(`.right-align-2`, {
+  delay: 500,
+  origin: "right",
+});
+// homeReveal.reveal(`.footer__copyright`, { delay: 800 });
