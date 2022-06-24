@@ -53,7 +53,7 @@ export const createNavAndFooter = (headerId, footerId, active) => {
   const footerElement = `
   <div class="footer__container container grid">
     <div>
-      <a href="#" class="footer__logo">QDNP</a>
+      <h3 class="footer__logo">QDNP</h3>
       <p class="footer__description">Studio de production musicale</p>
     </div>
 
@@ -199,8 +199,8 @@ export const createNavAndFooter = (headerId, footerId, active) => {
     delay: 400,
   });
 
-  footerReveal.reveal(`.footer__logo, .footer__description`);
-  footerReveal.reveal(`.footer__title`, { delay: 500 });
+  footerReveal.reveal(`.footer__logo`);
+  footerReveal.reveal(`.footer__title, .footer__description`, { delay: 500 });
   footerReveal.reveal(`.footer__links, .footer__social`, { delay: 600 });
   footerReveal.reveal(`.footer__link, .footer__social-link`, { delay: 700 });
   footerReveal.reveal(`.footer__copyright`, { delay: 800 });

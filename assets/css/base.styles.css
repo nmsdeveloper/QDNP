@@ -274,7 +274,7 @@ button {
   color: var(--primary-color);
   font-size: var(--h3-font-size);
   font-weight: var(--font-bold);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 .footer__description,
 .footer__link {
