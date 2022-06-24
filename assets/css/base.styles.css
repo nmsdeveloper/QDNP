@@ -475,3 +475,29 @@ button {
     zoom: 2;
   }
 }
+
+/*=============================================================================*/
+/* =============== RESPONSIVE STYLE ===============
+@media screen and (max-width: 350px) {
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1040px) {
+}
+
+@media screen and (min-width: 2048px) {
+}
+
+@media screen and (min-width: 3840px) {
+} */
