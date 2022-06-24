@@ -265,6 +265,7 @@ button {
 .footer {
   background-color: var(--container-color);
   padding-bottom: calc(var(--header-nav) + 2rem);
+  transition: 0.3s ease-in-out;
 }
 .footer__container {
   row-gap: 2.5rem;
