@@ -102,12 +102,38 @@
 .head__price {
   font-size: var(--small-font-size);
   font-weight: var(--font-normal);
+  margin-bottom: 0.5rem;
 }
 .head__name,
 .head__price {
   color: var(--primary-color-lighten);
 }
+.head__button {
+  width: max-content;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-color-light);
+  border: 1px solid var(--text-color-light);
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.head__button:hover {
+  color: var(--primary-color-light);
+  background-color: var(--text-color-light);
+}
+
 /*=============== MUSICS ===============*/
+.filter__option {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+.filter__option.active {
+  background-color: var(--container-color);
+}
 
 /*=============== RESPONSIVE STYLE ===============*/
 @media screen and (max-width: 350px) {

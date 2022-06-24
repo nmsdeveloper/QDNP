@@ -1,3 +1,17 @@
+/*=============== MUSICS ===============*/
+const filterActive = () => {
+  const filter = document.querySelectorAll(".filter__option");
+
+  filter.forEach((f) =>
+    f.addEventListener("click", () => {
+      filter.forEach((c) => c.classList.remove("active"));
+      f.classList.add("active");
+    })
+  );
+};
+filterActive();
+
+/*=============== SWIPER ===============*/
 /* HEAD */
 var swiperHead = new Swiper(".head__container", {
   spaceBetween: 32,
