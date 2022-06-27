@@ -5,13 +5,13 @@ export const createNavAndFooter = (headerId, footerId, active) => {
   const nav = `
   <nav class="nav container">
     <div>
-      <a href="./" class="nav__logo">QDNP</a>
+      <a href="./index.html" class="nav__logo">QDNP</a>
     </div>
 
     <div id="nav-menu" class="nav__menu">
       <ul class="nav__list">
         <li class="nav__item">
-          <a href="./" class="nav__link">
+          <a href="./index.html" class="nav__link">
             <i class="ri-home-line"></i>
             <span>Accueil</span>
           </a>
